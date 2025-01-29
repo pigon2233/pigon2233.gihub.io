@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>I am 111652008</title>
+        <style>
+            body    {background-color: aquamarine;}
+            header  {background-color: #a59d59;}
+            footer  {background-color: blueviolet;}
+            h2  {color: blue;}
+            legend  {color: red;}
+        </style>
+    </head>
+    <body>
+        <h2>作業3 - 表單網頁</h2>
+        <ol>
+            <li>Host_OS: Windows 11</li>
+            <li>VMM: VirtualBox 7.1.2</li>
+            <li>Guest_OS: Ubuntu 24.10</li>
+        </ol>
+        <header></header>
+        
+        <hr>
+
+        <form action="mailto:jcs.chen@nycu.edu.tw"  subject=%A7%DA%A6%B3%B0%DD%C3D&body=%B0%DD%C3D%B4y%ADz%A1G" method="post" enctype="text/plain">
+            <fieldset>
+                <legend>個人資料</legend>
+                <div>
+                    <label for="name">姓名: </label>
+                    <input type="text" id="name">
+                </div>
+                <div>
+                    <label for="number">學號: </label>
+                    <input type="text" id="number">
+                </div>
+                
+                <label for="grade">年級: </label>
+                <input type="radio" id="大一" name="grade" value="大一">
+                <label for="No1">大一</label>
+                <input type="radio" id="大二" name="grade" value="大二">
+                <label for="No2">大二</label>
+                <input type="radio" id="大三" name="grade" value="大三" checked>
+                <label for="No3">大三</label>
+                <input type="radio" id="大四" name="grade" value="大四">
+                <label for="No4">大四</label>
+                <input type="radio" id="延畢" name="grade" value="延畢">
+                <label for="No5">延畢</label>
+                <input type="radio" id="碩博" name="grade" value="碩博">
+                <label for="No6">碩博</label>
+            </fieldset>
+            <legend>其他資訊</legend>
+            <hr/>
+            <fieldset>
+                <ol>
+                    <li>興趣</li>
+                    <div>
+                        <input type="checkbox" id="足球" name="足球" checked />
+                        <label for="scales">足球</label>
+                        <input type="checkbox" id="打電動" name="打電動" />
+                        <label for="scales">打電動</label>
+                        <input type="checkbox" id="閱讀" name="閱讀" />
+                        <label for="scales">閱讀</label>
+                    </div>
+                    <li>系統工具-使用的瀏覽器</li>
+                    <select name="瀏覽器" id="瀏覽器">
+                        <option value="">--Please choose an option--</option>
+                        <option value="Google Chrome">Google Chrome</option>
+                        <option value="Firfox">Firefox</option>
+                        <option value="Edge">Edge</option>
+                        <option value="Safari">Safari</option>
+                        <option value="other">other</option>
+                        <option value="IE">IE</option>
+                      </select>
+                    <li>遭遇問題</li>
+                    <textarea id="story" name="story" rows="5" cols="40"></textarea>
+                    <li>繳交時間:</li>
+                    <input type="datetime-local" id="datetime">
+
+
+                </ol>
+
+            </fieldset><br/>
+            <input type="submit" value="提交">
+            <input type="reset" value="重設"><br>
+            
+        </form>
+
+        <hr/>
+        
+        <footer></footer>
+    </body>
+</html> 
